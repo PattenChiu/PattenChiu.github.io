@@ -145,6 +145,14 @@ nav {
 /* Section Common */
 .section {
     padding: 80px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .bg-alt {
@@ -266,6 +274,6 @@ footer {
         font-size: 2.5rem;
     }
     .nav-links {
-        display: none; /* Simplification for now */
+        display: none;
     }
 }
