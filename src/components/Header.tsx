@@ -10,7 +10,7 @@ const Header = () => {
             <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>關於我</NavLink>
           </li>
           <li>
-            <NavLink to="/experience" className={({ isActive }) => isActive ? 'active' : ''}>經歷</NavLink>
+            <NavLink to="/experience" className={({ isActive }) => isActive ? 'active' : ''}>學經歷</NavLink>
           </li>
           <li>
             <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>專案</NavLink>
