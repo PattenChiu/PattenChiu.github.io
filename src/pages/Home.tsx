@@ -37,7 +37,7 @@ const Home = () => {
           <h2 className="section-title">關於我</h2>
           <div className="about-content">
             <p style={{ marginBottom: '30px' }}>我是一位專注於構建高品質軟體解決方案的開發者。我熱衷於學習新技術，並將其應用於解決實際問題。這裡展示了我的專業技能和近期所參與的專案。</p>
-            <div className="cta-buttons" style={{ justifyContent: 'flex-start' }}>
+            <div className="cta-buttons" style={{ marginTop: '40px' }}>
               <Link to="/projects" className="btn primary">查看作品</Link>
               <Link to="/experience" className="btn secondary">查看經歷</Link>
             </div>
