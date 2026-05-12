@@ -150,9 +150,9 @@ nav {
     transition: opacity 0.8s, transform 0.8s;
 }
 
-.section.visible {
-    opacity: 1;
-    transform: translateY(0);
+.section.visible, .hero.visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
 }
 
 .bg-alt {
