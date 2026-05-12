@@ -28,7 +28,7 @@ const Home = () => {
       <section id="hero" className="hero visible">
         <div className="container">
           <h1 className="fade-in">你好，我是 <span className="highlight">Patten Chiu</span></h1>
-          <p className="subtitle fade-in">一名熱愛技術與創新的開發者</p>
+          <p className="subtitle fade-in">本網站內容尚待修正</p>
         </div>
       </section>
 
