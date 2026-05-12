@@ -27,12 +27,8 @@ const Home = () => {
     <main>
       <section id="hero" className="hero visible">
         <div className="container">
-          <h1 className="fade-in">你好，我是 <span className="highlight">Patten Chiu</span></h1>
+          <h1 className="fade-in">你好，我是 <span class="highlight">Patten Chiu</span></h1>
           <p className="subtitle fade-in">一名熱愛技術與創新的開發者</p>
-          <div className="cta-buttons fade-in">
-            <Link to="/projects" className="btn primary">查看作品</Link>
-            <Link to="/experience" className="btn secondary">查看經歷</Link>
-          </div>
         </div>
       </section>
 
@@ -40,7 +36,11 @@ const Home = () => {
         <div className="container">
           <h2 className="section-title">關於我</h2>
           <div className="about-content">
-            <p>我是一位專注於構建高品質軟體解決方案的開發者。我熱衷於學習新技術，並將其應用於解決實際問題。這裡展示了我的專業技能和近期所參與的專案。</p>
+            <p style={{ marginBottom: '30px' }}>我是一位專注於構建高品質軟體解決方案的開發者。我熱衷於學習新技術，並將其應用於解決實際問題。這裡展示了我的專業技能和近期所參與的專案。</p>
+            <div className="cta-buttons" style={{ justifyContent: 'flex-start' }}>
+              <Link to="/projects" className="btn primary">查看作品</Link>
+              <Link to="/experience" className="btn secondary">查看經歷</Link>
+            </div>
           </div>
         </div>
       </section>
